@@ -2,7 +2,7 @@
 Folder berisikan Exercise 2.1 - 2.4 dan Soal 1-2 Mata Kuliah Praktek Programa Komputer
 Semester 2 Teknik Industri Universitas Sebelas Maret
 
-### Daftar Isi
+## Daftar Isi
 
 ### Exercise
 #### Exercise 2.1
