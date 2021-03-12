@@ -12,7 +12,7 @@ def menu():
 def persegi():
     print ("Menghitung luas persegi panjang")
     p = float(input("Masukkan panjang: "))
-    l = float(input("Masukkan lebar"))
+    l = float(input("Masukkan lebar: "))
     luas = p * l
     print("Luas persegi panjang adalah ", luas)
     print
@@ -20,8 +20,8 @@ def persegi():
     back = raw_input().upper()
     if back == "Y":
         menu()
-        else:
-            exit()
+    else:
+        exit()
 
 def lingkaran():
     print ("Menghitung luas lingkaran")
@@ -34,12 +34,12 @@ def lingkaran():
     back = raw_input().upper()
     if back == "Y":
         menu()
-        else:
-            exit()
+    else:
+        exit()
 
 def kubus():
     print ("Menghitung luas permukaan kubus")
-    radius = float(input("Masukkan sisi: "))
+    s = float(input("Masukkan sisi: "))
     luas = 6 * (s ** 2)
     print("Luas permukaan kubus adalah ", luas)
     print
@@ -47,8 +47,8 @@ def kubus():
     back = raw_input().upper()
     if back == "Y":
         menu()
-        else:
-            exit()
+    else:
+        exit()
 
 def celcius():
     print ("Konversi suhu Celcius ke Fahrenheit")
@@ -61,22 +61,22 @@ def celcius():
     back = raw_input().upper()
     if back == "Y":
         menu()
-        else:
-            exit()
+    else:
+        exit()
             
 def reamur():
     print ("Konversi suhu Reamur ke kelvin")
     reamur = float(input('Masukkan temperatur = '))
     print("Dengan temperatur", reamur, "reamur")
     kelvin = ((5/4) * reamur) + 273
-    print("temperatur dalam kelvin adalah", fahrenheit, "fahrenheit")
+    print("temperatur dalam kelvin adalah", kelvin, "kelvin")
     print
     print("Coba lagi [Y/N]?")
     back = raw_input().upper()
     if back == "Y":
         menu()
-        else:
-            exit()
+    else:
+        exit()
 
 # Program Menghitung Luas
 print("Selamat Datang di Hasil Program Tugas 2")
@@ -86,7 +86,7 @@ menu()
 
 while 1:
     # Input
-    pilih = input("Masukkan yang ingin dilihat Mas Abyan: ")
+    pilih = int(input("Masukkan yang ingin dilihat Mas Abyan: "))
 
     if pilih == 1:
         persegi()
@@ -106,7 +106,7 @@ while 1:
         print("Coba lagi [Y/N] ?")
         coba = raw_input().upper()
         if coba == "Y"
-        menu()
+            menu()
         else:
             print("\n")*100
             break
