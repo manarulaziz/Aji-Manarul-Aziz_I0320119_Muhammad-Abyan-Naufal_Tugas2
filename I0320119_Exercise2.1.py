@@ -12,7 +12,7 @@ print(20)
 print(3.14)
 
 # Tipe data Hexadecimal
-print(9a)
+print(0x9a)
 
 # Tipe data Complex
 print(5j)
