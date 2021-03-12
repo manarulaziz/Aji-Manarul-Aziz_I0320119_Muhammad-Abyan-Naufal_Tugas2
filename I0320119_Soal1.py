@@ -17,7 +17,7 @@ def persegi():
     print("Luas persegi panjang adalah ", luas)
     print
     print("Coba lagi [Y/N]?")
-    back = raw_input().upper()
+    back = input().upper()
     if back == "Y":
         menu()
     else:
@@ -31,7 +31,7 @@ def lingkaran():
     print("Luas lingkaran adalah ", luas)
     print
     print("Coba lagi [Y/N]?")
-    back = raw_input().upper()
+    back = input().upper()
     if back == "Y":
         menu()
     else:
@@ -44,7 +44,7 @@ def kubus():
     print("Luas permukaan kubus adalah ", luas)
     print
     print("Coba lagi [Y/N]?")
-    back = raw_input().upper()
+    back = input().upper()
     if back == "Y":
         menu()
     else:
@@ -58,7 +58,7 @@ def celcius():
     print("temperatur dalam fahrenheit adalah", fahrenheit, "fahrenheit")
     print
     print("Coba lagi [Y/N]?")
-    back = raw_input().upper()
+    back = input().upper()
     if back == "Y":
         menu()
     else:
@@ -72,7 +72,7 @@ def reamur():
     print("temperatur dalam kelvin adalah", kelvin, "kelvin")
     print
     print("Coba lagi [Y/N]?")
-    back = raw_input().upper()
+    back = input().upper()
     if back == "Y":
         menu()
     else:
@@ -98,14 +98,14 @@ while 1:
         celcius()
     elif pilih == 5:
         reamur()
-    elif pilih = 6:
+    elif pilih == 6:
         print("\n"*100)
         break
     else:
         print("Maaf pilihan yang Mas Abyan masukkan tidak terdaftar :)")
         print("Coba lagi [Y/N] ?")
-        coba = raw_input().upper()
-        if coba == "Y"
+        coba = input().upper()
+        if coba == "Y":
             menu()
         else:
             print("\n")*100
